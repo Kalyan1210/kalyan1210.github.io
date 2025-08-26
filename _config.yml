@@ -1,3 +1,21 @@
+title: "Sai Kalyan Yalla"
+description: "Analytics Engineer and Data Operations, Boston MA"
+# Use the built-in GitHub Pages theme, still serves our custom layout
+# (the layout below does not depend on the theme styles)
 theme: jekyll-theme-minimal
-title: Kalyan's homepage
-description: Bookmark this to keep an eye on my work updates!
+
+
+# Optional branding shown by some themes (safe to keep even if unused)
+logo: /headshot.jpg
+show_downloads: false
+
+
+# If you add Google Analytics later, set the ID here
+# google_analytics: G-XXXXXXXXXX
+
+
+# Site links for the footer or future use
+links:
+github: https://github.com/kalyan1210
+linkedin: https://www.linkedin.com/in/saikalyanyalla/
+email: mailto:yalla.saikalyan@gmail.com
