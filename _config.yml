@@ -2,7 +2,7 @@ title: "Sai Kalyan Yalla"
 description: "Analytics Engineer and Data Operations, Boston MA"
 # Use the built-in GitHub Pages theme, still serves our custom layout
 # (the layout below does not depend on the theme styles)
-theme: jekyll-theme-minimal
+theme: minima
 
 
 # Optional branding shown by some themes (safe to keep even if unused)
