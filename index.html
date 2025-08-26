@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sai Kalyan Yalla</title>
+  <meta name="description" content="Sai Kalyan Yalla, Analytics Engineer and Data Operations leader in Boston. Quickbase, Power BI, SQL, Python, dbt, and ML projects." />
+  <link rel="icon" href="favicon.ico" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #1a1a1a;
+      --muted: #666;
+      --link: #0a66c2;
+      --card: #f7f7f7;
+      --maxw: 900px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0d0f12; --text: #e8eaed; --muted: #9aa0a6; --link: #8ab4f8; --card: #15181c; }
+      img { filter: brightness(0.95); }
+    }
+    html, body { height: 100%; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { max-width: var(--maxw); margin: 0 auto; padding: 32px 20px 60px; }
+    header { display: grid; grid-template-columns: 1fr 180px; gap: 24px; align-items: start; }
+    h1 { font-size: 36px; margin: 0 0 6px; letter-spacing: 0.2px; }
+    .subtitle { color: var(--muted); margin: 0 0 10px; }
+    nav { margin: 8px 0 20px; }
+    nav a { margin-right: 14px; font-weight: 600; }
+    .photo { width: 180px; height: 180px; border-radius: 12px; object-fit: cover; background: var(--card); }
+    section { margin-top: 36px; }
+    h2 { font-size: 22px; margin: 0 0 12px; }
+    ul { margin: 8px 0 0 20px; }
+    li { margin: 6px 0; }
+    .card { background: var(--card); padding: 16px; border-radius: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+    .muted { color: var(--muted); }
+    footer { margin-top: 48px; font-size: 14px; color: var(--muted); }
+    .chip { display: inline-block; padding: 2px 8px; border-radius: 999px; background: var(--card); margin-right: 6px; font-size: 12px; }
+    .nowrap { white-space: nowrap; }
+    .anchor { scroll-margin-top: 80px; }
+    @media (max-width: 760px) { header { grid-template-columns: 1fr; } .photo { width: 140px; height: 140px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Sai Kalyan Yalla</h1>
+        <p class="subtitle">Analytics Engineer and Data Operations, Boston MA</p>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#research">Research</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <p>
+          I work at the intersection of data operations and analytics. I build reliable pipelines and semantic layers across Quickbase, Power BI, and Python, then turn them into clear dashboards and decision tools. I also explore ML projects and deploy small apps.
+        </p>
+        <p>
+          Current focus, <span class="chip">Analytics Engineering</span> <span class="chip">Power BI</span> <span class="chip">SQL</span> <span class="chip">Python</span> <span class="chip">dbt</span>
+        </p>
+      </div>
+      <div style="text-align:right">
+        <img class="photo" src="headshot.jpg" alt="Sai Kalyan Yalla headshot placeholder" />
+        <p class="muted" style="font-size:12px;margin-top:8px">Replace headshot.jpg with your photo</p>
+      </div>
+    </header>
+
+    <section id="about" class="anchor">
+      <h2>About</h2>
+      <p>
+        I lead data work across Quickbase tables, Power BI datasets, and survey tools like Qualtrics. My recent work includes a Family Partnership Program time series dashboard, volunteer capacity modeling, and staff roster integrations. I enjoy building small, testable models that let program teams answer questions in minutes.
+      </p>
+      <p class="muted">
+        Past, BYJU'S team leadership in sales analytics. Education, MSBA at Suffolk University and B.Tech Petroleum Engineering at IIPE.
+      </p>
+    </section>
+
+    <section id="projects" class="anchor">
+      <h2>Selected Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <strong>AE Showcase, dbt + DuckDB</strong>
+          <p>Mini warehouse with seeds, staging models, and marts for cohort analysis. Tests, exposures, and a Power BI page on top.</p>
+          <p class="muted nowrap"><a href="https://github.com/kalyan1210/ae-showcase" target="_blank" rel="noreferrer">Repo</a></p>
+        </div>
+        <div class="card">
+          <strong>Data Engineering Demos</strong>
+          <p>Docker stack with Airbyte, Postgres, Prefect, and Superset. ETL from CSV and APIs into a star schema.</p>
+          <p class="muted nowrap"><a href="https://github.com/kalyan1210/data-engineering-demos" target="_blank" rel="noreferrer">Repo</a></p>
+        </div>
+        <div class="card">
+          <strong>Resume Skill Extractor</strong>
+          <p>Streamlit app using spaCy and GPT to parse resumes, score against JDs, and show gaps with charts.</p>
+          <p class="muted nowrap"><a href="https://github.com/kalyan1210/resume-matcher" target="_blank" rel="noreferrer">Repo</a></p>
+        </div>
+        <div class="card">
+          <strong>Avocado Price Forecast</strong>
+          <p>Prophet plus gradient boosting, weekly forecasts and scenario toggles for supply shocks, quick Streamlit UI.</p>
+          <p class="muted nowrap"><a href="https://github.com/kalyan1210/avocado-forecast" target="_blank" rel="noreferrer">Repo</a></p>
+        </div>
+        <div class="card">
+          <strong>Chess Assistant</strong>
+          <p>Lightweight overlay for study and analysis, experiments with engine hints and PGN parsing.</p>
+          <p class="muted nowrap"><a href="https://github.com/kalyan1210/chess-assistant" target="_blank" rel="noreferrer">Repo</a></p>
+        </div>
+        <div class="card">
+          <strong>Spam Mail Classifier</strong>
+          <p>TensorFlow based classifier with CLI, data cleaning, and evaluation notebook.</p>
+          <p class="muted nowrap"><a href="https://github.com/kalyan1210/spam-mail-classifier" target="_blank" rel="noreferrer">Repo</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="anchor">
+      <h2>Research and Writing</h2>
+      <ul>
+        <li><strong>Bias in AI Models for Public Health Interventions, A Systematic Review</strong> &middot; in progress, 2025. Draft outline, PRISMA diagram, and literature tracker.</li>
+        <li>Notes on AI for nonprofits, Practical adoption patterns and data governance, 2025.</li>
+      </ul>
+    </section>
+
+    <section id="news" class="anchor">
+      <h2>News</h2>
+      <ul>
+        <li><span class="muted">Aug 2025</span> &middot; Launched this site, added AE showcase repo and dbt models.</li>
+        <li><span class="muted">Jul 2025</span> &middot; Published FPP Time Series v2 and Volunteer Capacity v2 dashboards.</li>
+        <li><span class="muted">Jun 2025</span> &middot; Completed Quickbase Pipelines Builder exam prep and practice labs.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="anchor">
+      <h2>Contact</h2>
+      <p>
+        Email, <a href="mailto:yalla.saikalyan@gmail.com">yalla.saikalyan@gmail.com</a>
+        &nbsp;·&nbsp; GitHub, <a href="https://github.com/kalyan1210" target="_blank" rel="noreferrer">kalyan1210</a>
+        &nbsp;·&nbsp; LinkedIn, <a href="https://www.linkedin.com/in/saikalyanyalla/" target="_blank" rel="noreferrer">/in/saikalyanyalla</a>
+        &nbsp;·&nbsp; CV, <a href="/Sai_Kalyan_Yalla_CV.pdf" target="_blank" rel="noreferrer">PDF</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> Sai Kalyan Yalla. Built with plain HTML and a tiny bit of CSS. Hosted on GitHub Pages.</p>
+    </footer>
+  </div>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
